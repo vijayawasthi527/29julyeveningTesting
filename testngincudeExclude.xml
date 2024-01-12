@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNgXmlUse.MyClass">
+		  <methods>
+			  <include name="Tc2"/>
+			  <include name="Tc4"/>
+		  </methods>
+		  </class>
+      <class name="testNgXmlUse.MyClass2">
+		  <methods>
+			  <exclude name="Tc6"/>
+			  <exclude name="Tc8"/>
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
