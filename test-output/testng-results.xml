@@ -1,167 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Launching Browser]]>
+      <![CDATA[Opening Browser]]>
     </line>
     <line>
-      <![CDATA[Click On Gender Button]]>
+      <![CDATA[clicking on genderButton]]>
     </line>
     <line>
-      <![CDATA[click on next button]]>
+      <![CDATA[clicking on next Button]]>
     </line>
     <line>
       <![CDATA[Handling age dropdown]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
       <![CDATA[Clicking on next button]]>
     </line>
     <line>
-      <![CDATA[Entering PinCode]]>
+      <![CDATA[Entering pin code]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
+      <![CDATA[Entering mobile number]]>
     </line>
     <line>
-      <![CDATA[Entering Mobile Number]]>
+      <![CDATA[Click on continue button]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on continue Button]]>
-    </line>
-    <line>
-      <![CDATA[Fetching number of results from text ]]>
+      <![CDATA[Fetching Number of results from text]]>
     </line>
     <line>
       <![CDATA[Fetching number of results from Banners ]]>
     </line>
     <line>
-      <![CDATA[Taking ScreenShot]]>
-    </line>
-    <line>
-      <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\coverFoxvalidateTestPlansFromTextAndBanners_06.01.2024.16.16.41.png]]>
+      <![CDATA[TC is passed ]]>
     </line>
     <line>
       <![CDATA[Closing browser ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-06T16:16:05 IST" name="Default suite" finished-at="2024-01-06T16:16:44 IST" duration-ms="39001">
+  <suite started-at="2024-02-05T17:56:50 IST" name="Default suite" finished-at="2024-02-05T17:57:19 IST" duration-ms="29009">
     <groups>
     </groups>
-    <test started-at="2024-01-06T16:16:05 IST" name="Default test" finished-at="2024-01-06T16:16:44 IST" duration-ms="39001">
-      <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@510f3d34]" started-at="2024-01-06T16:16:05 IST" name="launchBrowser" finished-at="2024-01-06T16:16:19 IST" duration-ms="14004" status="PASS">
+    <test started-at="2024-02-05T17:56:50 IST" name="Default test" finished-at="2024-02-05T17:57:19 IST" duration-ms="29009">
+      <class name="coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:56:50 IST" name="launchBrowser" finished-at="2024-02-05T17:56:58 IST" duration-ms="7926" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Launching Browser]]>
+              <![CDATA[Opening Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@510f3d34]" started-at="2024-01-06T16:16:19 IST" name="enterMemberDetails" finished-at="2024-01-06T16:16:28 IST" duration-ms="8218" status="PASS">
+        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:56:58 IST" name="enterMemberDetails" finished-at="2024-02-05T17:57:05 IST" duration-ms="6979" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Click On Gender Button]]>
+              <![CDATA[clicking on genderButton]]>
             </line>
             <line>
-              <![CDATA[click on next button]]>
+              <![CDATA[clicking on next Button]]>
             </line>
             <line>
               <![CDATA[Handling age dropdown]]>
             </line>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
               <![CDATA[Clicking on next button]]>
             </line>
             <line>
-              <![CDATA[Entering PinCode]]>
+              <![CDATA[Entering pin code]]>
             </line>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
+              <![CDATA[Entering mobile number]]>
             </line>
             <line>
-              <![CDATA[Entering Mobile Number]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on continue Button]]>
+              <![CDATA[Click on continue button]]>
             </line>
           </reporter-output>
         </test-method> <!-- enterMemberDetails -->
-        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@510f3d34]" started-at="2024-01-06T16:16:28 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-06T16:16:41 IST" duration-ms="13202" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Text results are matching with Banner results, TC is failed did not expect [49] but found [49]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Text results are matching with Banner results, TC is failed did not expect [49] but found [49]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failEquals(Assert.java:1582)
-at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
-at org.testng.Assert.assertNotEquals(Assert.java:2198)
-at coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies.validateTestPlansFromTextAndBanners(CF_TC555_Validate_search_results_for_healthcare_policies.java:83)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:57:05 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-02-05T17:57:16 IST" duration-ms="10737" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Fetching number of results from text ]]>
+              <![CDATA[Fetching Number of results from text]]>
             </line>
             <line>
               <![CDATA[Fetching number of results from Banners ]]>
             </line>
             <line>
-              <![CDATA[Taking ScreenShot]]>
-            </line>
-            <line>
-              <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\coverFoxvalidateTestPlansFromTextAndBanners_06.01.2024.16.16.41.png]]>
+              <![CDATA[TC is passed ]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateTestPlansFromTextAndBanners -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@510f3d34]" started-at="2024-01-06T16:16:41 IST" name="closeBrowser" finished-at="2024-01-06T16:16:44 IST" duration-ms="3183" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:57:16 IST" name="closeBrowser" finished-at="2024-02-05T17:57:19 IST" duration-ms="3301" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing browser ]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
+      </class> <!-- coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -25,7 +25,7 @@ public class Screenshot1 {
 		//System.out.println(MyFile);
 		
 		
-		File Destination=new File("C:\\Users\\vijay\\Desktop\\Class Notes\\Selenium_Notes\\ScreenShot\\myscreenshot.ping");
+		File Destination=new File("C:\\Users\\vijay\\Desktop\\Class Notes\\Selenium_Notes\\ScreenShot\\myscreenshot.png");
 		
 		FileHandler.copy(Source,Destination);
 	}

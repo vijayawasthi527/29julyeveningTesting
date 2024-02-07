@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
+      <class name="dataProvider.FB_AccountForm_Using_XMLData">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="validateTestPlansFromTextAndBanners"/>
-          <include name="enterMemberDetails"/>
+          <include name="fbTest"/>
         </methods>
-      </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
+      </class> <!-- dataProvider.FB_AccountForm_Using_XMLData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

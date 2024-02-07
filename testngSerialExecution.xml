@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite"><!-- If we want run parallel test class we have to add here in suite  parallel="classes"-->
   <test thread-count="5" name="AjioTest">
     <classes>
       <class name="serialAndParallelTestNg.Flipkart"/>
