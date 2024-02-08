@@ -1,101 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Opening Browser]]>
-    </line>
-    <line>
-      <![CDATA[clicking on genderButton]]>
-    </line>
-    <line>
-      <![CDATA[clicking on next Button]]>
-    </line>
-    <line>
-      <![CDATA[Handling age dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on next button]]>
-    </line>
-    <line>
-      <![CDATA[Entering pin code]]>
-    </line>
-    <line>
-      <![CDATA[Entering mobile number]]>
-    </line>
-    <line>
-      <![CDATA[Click on continue button]]>
-    </line>
-    <line>
-      <![CDATA[Fetching Number of results from text]]>
-    </line>
-    <line>
-      <![CDATA[Fetching number of results from Banners ]]>
-    </line>
-    <line>
-      <![CDATA[TC is passed ]]>
-    </line>
-    <line>
-      <![CDATA[Closing browser ]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-02-05T17:56:50 IST" name="Default suite" finished-at="2024-02-05T17:57:19 IST" duration-ms="29009">
+  <suite started-at="2024-02-07T14:26:52 IST" name="Default suite" finished-at="2024-02-07T14:27:23 IST" duration-ms="31533">
     <groups>
     </groups>
-    <test started-at="2024-02-05T17:56:50 IST" name="Default test" finished-at="2024-02-05T17:57:19 IST" duration-ms="29009">
-      <class name="coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:56:50 IST" name="launchBrowser" finished-at="2024-02-05T17:56:58 IST" duration-ms="7926" status="PASS">
+    <test started-at="2024-02-07T14:26:52 IST" name="Default test" finished-at="2024-02-07T14:27:23 IST" duration-ms="31533">
+      <class name="dataProvider.FB_Account_Form">
+        <test-method signature="fbTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProvider.FB_Account_Form@6a78afa0]" started-at="2024-02-07T14:26:52 IST" name="fbTest" data-provider="FBSanity" finished-at="2024-02-07T14:27:04 IST" duration-ms="12146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XYX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9981898909]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Opening Browser]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:56:58 IST" name="enterMemberDetails" finished-at="2024-02-05T17:57:05 IST" duration-ms="6979" status="PASS">
+        </test-method> <!-- fbTest -->
+        <test-method signature="fbTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProvider.FB_Account_Form@6a78afa0]" started-at="2024-02-07T14:27:04 IST" name="fbTest" data-provider="FBSanity" finished-at="2024-02-07T14:27:14 IST" duration-ms="9726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hjk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uuiu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7788990011]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[clicking on genderButton]]>
-            </line>
-            <line>
-              <![CDATA[clicking on next Button]]>
-            </line>
-            <line>
-              <![CDATA[Handling age dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on next button]]>
-            </line>
-            <line>
-              <![CDATA[Entering pin code]]>
-            </line>
-            <line>
-              <![CDATA[Entering mobile number]]>
-            </line>
-            <line>
-              <![CDATA[Click on continue button]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- enterMemberDetails -->
-        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:57:05 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-02-05T17:57:16 IST" duration-ms="10737" status="PASS">
+        </test-method> <!-- fbTest -->
+        <test-method signature="fbTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProvider.FB_Account_Form@6a78afa0]" started-at="2024-02-07T14:27:14 IST" name="fbTest" data-provider="FBSanity" finished-at="2024-02-07T14:27:23 IST" duration-ms="9563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[try]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rtx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0011223456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Fetching Number of results from text]]>
-            </line>
-            <line>
-              <![CDATA[Fetching number of results from Banners ]]>
-            </line>
-            <line>
-              <![CDATA[TC is passed ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- validateTestPlansFromTextAndBanners -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies@2925bf5b]" started-at="2024-02-05T17:57:16 IST" name="closeBrowser" finished-at="2024-02-05T17:57:19 IST" duration-ms="3301" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closing browser ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies -->
+        </test-method> <!-- fbTest -->
+      </class> <!-- dataProvider.FB_Account_Form -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
