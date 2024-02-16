@@ -1,4 +1,4 @@
-ackage iframe;
+package iframe;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +37,7 @@ public class IframeEg1 {
 		String element = driver.findElement(By.xpath("//h5[text()='iFrame Demo']")).getText();
 		System.out.println(element);
 	
-		driver.switchTo().frame(1);
+		driver.switchTo().defaultContent();
 //		
 //		WebElement textbox = driver.findElement(By.xpath("(//input[@type='text'])"));
 //		textbox.sendKeys("Hello User");

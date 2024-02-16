@@ -35,7 +35,7 @@ public class PopUpPractice {
 		Alert alt3 = driver.switchTo().alert();
 		//alt3.sendKeys("This is a text message for you");
 		alt3.accept();
-		
+		driver.close();
 		
 
 	}

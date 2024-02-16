@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataProvider.FB_AccountForm_Using_XMLData">
+      <class name="identifyFailCasesInTestNg.Myclass">
         <methods>
-          <include name="fbTest"/>
+          <include name="TC1"/>
         </methods>
-      </class> <!-- dataProvider.FB_AccountForm_Using_XMLData -->
+      </class> <!-- identifyFailCasesInTestNg.Myclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

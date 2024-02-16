@@ -60,6 +60,7 @@ public class FullLocatorsStudy {
 		 
 		 driver.findElement(By.cssSelector("div._6ltj")).click();
 		 
+	
 		}
 
 }

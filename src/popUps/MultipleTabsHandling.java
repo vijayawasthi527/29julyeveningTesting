@@ -1,3 +1,4 @@
+
 package popUps;
 
 import java.util.ArrayList;
@@ -30,6 +31,8 @@ public class MultipleTabsHandling {
 		
 		Set<String> allHandels = driver.getWindowHandles();
 		ArrayList<String> al=new ArrayList<>(allHandels);
+		
+		System.out.println(al.size());
 		
 		for(int i=0;i<al.size();i++)
 		{

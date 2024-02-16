@@ -1,7 +1,7 @@
 package identifyFailCasesInTestNg;
 
 
-//import org.testng.Assert;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -11,7 +11,7 @@ public class Myclass {
   @Test
   public void TC1()
   {
-	  //Assert.fail();
+	  Assert.fail();
 	  Reporter.log("Tc1 is running",true);
   }
   
