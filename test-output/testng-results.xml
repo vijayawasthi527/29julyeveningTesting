@@ -1,97 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Tc2 is running]]>
-    </line>
-    <line>
-      <![CDATA[Tc3 is running]]>
-    </line>
-    <line>
-      <![CDATA[Tc4 is running]]>
-    </line>
-    <line>
-      <![CDATA[Tc5 is ruuning]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-02-09T17:06:21 IST" name="Default suite" finished-at="2024-02-09T17:06:21 IST" duration-ms="99">
+  <suite started-at="2024-03-18T14:07:24 IST" name="Suite" finished-at="2024-03-18T14:07:31 IST" duration-ms="6974">
     <groups>
     </groups>
-    <test started-at="2024-02-09T17:06:21 IST" name="Default test" finished-at="2024-02-09T17:06:21 IST" duration-ms="99">
-      <class name="identifyFailCasesInTestNg.Myclass">
-        <test-method signature="TC1()[pri:0, instance:identifyFailCasesInTestNg.Myclass@445b295b]" started-at="2024-02-09T17:06:21 IST" name="TC1" finished-at="2024-02-09T17:06:21 IST" duration-ms="12" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at identifyFailCasesInTestNg.Myclass.TC1(Myclass.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2024-03-18T14:07:24 IST" name="Chrome" finished-at="2024-03-18T14:07:30 IST" duration-ms="5566">
+      <class name="vijaySelenium.CBT">
+        <test-method signature="add()[pri:0, instance:vijaySelenium.CBT@ed7f8b4]" started-at="2024-03-18T14:07:24 IST" name="add" finished-at="2024-03-18T14:07:24 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method signature="Tc2()[pri:0, instance:identifyFailCasesInTestNg.Myclass@445b295b]" started-at="2024-02-09T17:06:21 IST" name="Tc2" finished-at="2024-02-09T17:06:21 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- add -->
+        <test-method signature="crossbrowserTesting(java.lang.String)[pri:0, instance:vijaySelenium.CBT@ed7f8b4]" started-at="2024-03-18T14:07:24 IST" name="crossbrowserTesting" finished-at="2024-03-18T14:07:29 IST" duration-ms="5468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Tc2 is running]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Tc2 -->
-        <test-method signature="Tc3()[pri:0, instance:identifyFailCasesInTestNg.Myclass@445b295b]" started-at="2024-02-09T17:06:21 IST" name="Tc3" finished-at="2024-02-09T17:06:21 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- crossbrowserTesting -->
+      </class> <!-- vijaySelenium.CBT -->
+    </test> <!-- Chrome -->
+    <test started-at="2024-03-18T14:07:24 IST" name="Firefox" finished-at="2024-03-18T14:07:31 IST" duration-ms="6974">
+      <class name="vijaySelenium.CBT">
+        <test-method signature="add()[pri:0, instance:vijaySelenium.CBT@1329eff]" started-at="2024-03-18T14:07:24 IST" name="add" finished-at="2024-03-18T14:07:24 IST" duration-ms="11" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Tc3 is running]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Tc3 -->
-        <test-method signature="Tc4()[pri:0, instance:identifyFailCasesInTestNg.Myclass@445b295b]" started-at="2024-02-09T17:06:21 IST" name="Tc4" finished-at="2024-02-09T17:06:21 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- add -->
+        <test-method signature="crossbrowserTesting(java.lang.String)[pri:0, instance:vijaySelenium.CBT@1329eff]" started-at="2024-03-18T14:07:24 IST" name="crossbrowserTesting" finished-at="2024-03-18T14:07:31 IST" duration-ms="6884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Tc4 is running]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Tc4 -->
-        <test-method signature="Tc5()[pri:0, instance:identifyFailCasesInTestNg.Myclass@445b295b]" started-at="2024-02-09T17:06:21 IST" name="Tc5" finished-at="2024-02-09T17:06:21 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Tc5 is ruuning]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Tc5 -->
-      </class> <!-- identifyFailCasesInTestNg.Myclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- crossbrowserTesting -->
+      </class> <!-- vijaySelenium.CBT -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
 </testng-results>

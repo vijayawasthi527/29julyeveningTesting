@@ -27,11 +27,11 @@ public class RandomList {
 		}
 		
 		
-		 //WebElement list = driver.findElement(By.className("G43f7e"));
-		//System.out.println(list.getText());
+		WebElement list1 = driver.findElement(By.className("G43f7e"));
+		System.out.println(list1.getText());
 		
 		
-		//driver.findElement(By.xpath("//div[@class='OBMEnb']//ul//li[3]")).click();
+		driver.findElement(By.xpath("//div[@class='OBMEnb']//ul//li[3]")).click();
 		
 		
 		

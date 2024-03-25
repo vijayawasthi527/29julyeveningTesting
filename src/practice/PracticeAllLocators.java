@@ -42,6 +42,8 @@ public class PracticeAllLocators {
 		driver.navigate().to("https://www.bsnl.co.in/");
 		
 		//driver.findElement(By.xpath());
+		
+		
 
 	}
 

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.Select;
 
 public class FbDate {
@@ -17,7 +18,12 @@ public class FbDate {
 		
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//a[contains(@id,'u_0_0_')]")).click();
+		WebElement button = driver.findElement(By.xpath("//a[contains(@id,'u_0_0_')]"));
+		
+		String color=button.getCssValue("background-colour");
+		String Hexcolor=Color.fromString(color).asRgb();
+		System.out.println(Hexcolor);
+		button.click();
 		
 		//driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Vijay");
 	

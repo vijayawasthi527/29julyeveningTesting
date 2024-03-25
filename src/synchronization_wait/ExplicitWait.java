@@ -24,7 +24,8 @@ public class ExplicitWait {
 		driver.findElement(By.name("mobileNumber")).sendKeys("8888888888");
 		w.until(ExpectedConditions.elementToBeClickable(otpButton));
 		otpButton.click();
-
+		
+		//w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Get OTP']")));
 	}
 
 }
