@@ -20,7 +20,7 @@ public class ChromeOption_Use {
 		
 		//run chrome in incognito mode
 		
-		opt.addArguments("incognito");
+		opt.addArguments("--headless");
 		
 		//opt.addArguments("-disable-notifications");
 		
