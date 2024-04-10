@@ -55,18 +55,56 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 16 14:24:06 IST 2024</td>
+<td>Started on:</td><td>Wed Mar 27 15:26:47 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (94 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25092 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Sanity </td>
+<td>Included groups:</td><td></td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='vijaySelenium.MyCrossBrowser.CBT()'><b>CBT</b><br>Test class: vijaySelenium.MyCrossBrowser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;bname&apos; is required by @Test on method CBT but has not been marked @Optional or defined
+in C:\Users\vijay\eclipse-workspace\vijaySelenium\MyCB.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace442089773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace442089773'><pre>org.testng.TestNGException: 
+Parameter &apos;bname&apos; is required by @Test on method CBT but has not been marked @Optional or defined
+in C:\Users\vijay\eclipse-workspace\vijaySelenium\MyCB.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>vijaySelenium.MyCrossBrowser@38e79ae3</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,29 +114,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='vijaySelenium.Practicegrouping.mytest()'><b>mytest</b><br>Test class: vijaySelenium.Practicegrouping<br/>
-<a href="#Output-785570251" onClick='toggleBox("Output-785570251", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-785570251" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-785570251">
-This is the message from reporter1<br/>
-</div>
-</td>
+<td title='vijaySelenium.MyCB.method1()'><b>method1</b><br>Test class: vijaySelenium.MyCB</td>
 <td></td>
-<td>0</td>
-<td>vijaySelenium.Practicegrouping@c86b9e3</td></tr>
+<td>8</td>
+<td>vijaySelenium.MyCB@ed7f8b4</td></tr>
 <tr>
-<td title='vijaySelenium.Practicegrouping.mytest2()'><b>mytest2</b><br>Test class: vijaySelenium.Practicegrouping<br/>
-<a href="#Output-936653983" onClick='toggleBox("Output-936653983", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-936653983" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-936653983">
-This is message from reporter3<br/>
-</div>
-</td>
+<td title='vijaySelenium.MyCB.method2()'><b>method2</b><br>Test class: vijaySelenium.MyCB</td>
 <td></td>
-<td>0</td>
-<td>vijaySelenium.Practicegrouping@c86b9e3</td></tr>
+<td>16</td>
+<td>vijaySelenium.MyCB@ed7f8b4</td></tr>
 </table><p>
 </body>
 </html>

@@ -50,6 +50,7 @@ public class KeyBoardActions {
 		//act.keyDown(fName,Keys.SHIFT).sendKeys("vijay").build().perform();
 		
 		act.keyDown(fName,Keys.SHIFT).sendKeys("VIJ").keyUp(Keys.SHIFT).sendKeys("ay").build().perform();
+		
 	
 		
 		

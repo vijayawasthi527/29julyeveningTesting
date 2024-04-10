@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-18T14:07:24 IST" name="Suite" finished-at="2024-03-18T14:07:31 IST" duration-ms="6974">
+  <suite started-at="2024-04-10T00:14:08 IST" name="Default suite" finished-at="2024-04-10T00:14:20 IST" duration-ms="11881">
     <groups>
     </groups>
-    <test started-at="2024-03-18T14:07:24 IST" name="Chrome" finished-at="2024-03-18T14:07:30 IST" duration-ms="5566">
-      <class name="vijaySelenium.CBT">
-        <test-method signature="add()[pri:0, instance:vijaySelenium.CBT@ed7f8b4]" started-at="2024-03-18T14:07:24 IST" name="add" finished-at="2024-03-18T14:07:24 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-04-10T00:14:08 IST" name="Default test" finished-at="2024-04-10T00:14:20 IST" duration-ms="11881">
+      <class name="practice.AutoSuggestions">
+        <test-method signature="autosuggestions()[pri:0, instance:practice.AutoSuggestions@687e99d8]" started-at="2024-04-10T00:14:08 IST" name="autosuggestions" finished-at="2024-04-10T00:14:20 IST" duration-ms="11777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add -->
-        <test-method signature="crossbrowserTesting(java.lang.String)[pri:0, instance:vijaySelenium.CBT@ed7f8b4]" started-at="2024-03-18T14:07:24 IST" name="crossbrowserTesting" finished-at="2024-03-18T14:07:29 IST" duration-ms="5468" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crossbrowserTesting -->
-      </class> <!-- vijaySelenium.CBT -->
-    </test> <!-- Chrome -->
-    <test started-at="2024-03-18T14:07:24 IST" name="Firefox" finished-at="2024-03-18T14:07:31 IST" duration-ms="6974">
-      <class name="vijaySelenium.CBT">
-        <test-method signature="add()[pri:0, instance:vijaySelenium.CBT@1329eff]" started-at="2024-03-18T14:07:24 IST" name="add" finished-at="2024-03-18T14:07:24 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add -->
-        <test-method signature="crossbrowserTesting(java.lang.String)[pri:0, instance:vijaySelenium.CBT@1329eff]" started-at="2024-03-18T14:07:24 IST" name="crossbrowserTesting" finished-at="2024-03-18T14:07:31 IST" duration-ms="6884" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crossbrowserTesting -->
-      </class> <!-- vijaySelenium.CBT -->
-    </test> <!-- Firefox -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- autosuggestions -->
+      </class> <!-- practice.AutoSuggestions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

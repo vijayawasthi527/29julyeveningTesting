@@ -14,6 +14,7 @@ public class AlertPopUpStudy {
 		driver.get("https://demo.guru99.com/test/delete_customer.php");
 		Thread.sleep(2000);
 		
+		
 		driver.findElement(By.name("submit")).click();
 		Thread.sleep(2000);
 		

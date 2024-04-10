@@ -24,12 +24,12 @@ public class AutoSuggestions {
 		WebElement search = driver.findElement(By.xpath("//textarea[@name='q']"));
 		Thread.sleep(2000);
 		
-//		List<WebElement> mylist = driver.findElements(By.className("G43f7e"));
-//		for(WebElement ll:mylist)
-//		{
-//			System.out.println(ll.getText());
-//		}
-//		
+		List<WebElement> mylist = driver.findElements(By.className("G43f7e"));
+		for(WebElement ll:mylist)
+		{
+			System.out.println(ll.getText());
+		}
+		
 		Actions act=new Actions(driver);
 		act.click(search).perform();
 //		Thread.sleep(1000);
