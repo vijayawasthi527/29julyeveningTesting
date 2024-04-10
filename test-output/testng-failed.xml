@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vijaySelenium.CBT">
+      <class name="practice.AutoSuggestions">
         <methods>
-          <include name="operation"/>
-          <include name="crossbrowserTesting"/>
+          <include name="autosuggestions"/>
         </methods>
-      </class> <!-- vijaySelenium.CBT -->
+      </class> <!-- practice.AutoSuggestions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
