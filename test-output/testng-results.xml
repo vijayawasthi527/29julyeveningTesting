@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-10T00:14:08 IST" name="Default suite" finished-at="2024-04-10T00:14:20 IST" duration-ms="11881">
+  <suite started-at="2024-04-25T09:27:01 IST" name="Default suite" finished-at="2024-04-25T09:27:35 IST" duration-ms="33604">
     <groups>
     </groups>
-    <test started-at="2024-04-10T00:14:08 IST" name="Default test" finished-at="2024-04-10T00:14:20 IST" duration-ms="11881">
-      <class name="practice.AutoSuggestions">
-        <test-method signature="autosuggestions()[pri:0, instance:practice.AutoSuggestions@687e99d8]" started-at="2024-04-10T00:14:08 IST" name="autosuggestions" finished-at="2024-04-10T00:14:20 IST" duration-ms="11777" status="PASS">
+    <test started-at="2024-04-25T09:27:01 IST" name="Default test" finished-at="2024-04-25T09:27:35 IST" duration-ms="33604">
+      <class name="makeMyTrip.MakeMyTrip">
+        <test-method signature="myTrip()[pri:0, instance:makeMyTrip.MakeMyTrip@687e99d8]" started-at="2024-04-25T09:27:02 IST" name="myTrip" finished-at="2024-04-25T09:27:35 IST" duration-ms="33536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autosuggestions -->
-      </class> <!-- practice.AutoSuggestions -->
+        </test-method> <!-- myTrip -->
+      </class> <!-- makeMyTrip.MakeMyTrip -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
